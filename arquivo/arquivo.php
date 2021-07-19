@@ -95,7 +95,7 @@
                         $telefone = $_POST["telefone"];
                         $email = $_POST["email"];
 
-                        $arquivo = fopen('agenda.txt', 'a'); //w apaga os campos tranto do formulario quanto arquivo.txt
+                        $arquivo = fopen('agenda.txt', 'w'); //a/w apaga os campos tranto do formulario quanto arquivo.txt
 
                         function registrar($campoTexto)
                         {
